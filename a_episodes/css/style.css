@@ -1,0 +1,226 @@
+body {
+  background: #D6E8FF;
+}
+.a_episodes {
+  margin-top: 109px;
+}
+.a_episodes .a_episodes__items {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+.a_episodes .a_episodes__items .a_episodes__item {
+  margin-bottom: 109px;
+  margin-left: 336px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-radius: 0 60px 0px 0;
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item {
+    padding: 0 20px 0 20px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 60px 0px 60px;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin {
+  left: -335px;
+  top: -60px;
+  width: 560px;
+  height: auto;
+  position: absolute;
+  background: #628CE6;
+  border-radius: 60px 60px 0px 60px;
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin {
+    width: 100%;
+    height: auto;
+    left: auto;
+    position: relative;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin > img:first-child {
+  width: 100%;
+  height: 215px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0px 60px 0px 60px;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin .a_episodes__logo {
+  top: 33px;
+  left: 46px;
+  position: absolute;
+  width: 80px;
+  height: 93px;
+  padding-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin .a_episodes__logo img {
+  width: 100%;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin .a_episodes__title {
+  padding: 30px 0 40px 46px;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__itemin .a_episodes__title h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data {
+  margin: 40px 60px 100px 285px;
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data {
+    margin: 0px 0 40px 0 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data h3 {
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding-bottom: 30px;
+  max-height: 50px;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data h3 span {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 34px;
+  height: 34px;
+  background-image: url(../img/episodes_union.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data h3 span {
+    margin: 0 10px 0 10px;
+  }
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data h3 {
+    text-align: center;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data p {
+    text-align: center;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc {
+    flex-wrap: wrap;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc {
+  cursor: pointer;
+  border-radius: 12px 0px 12px 12px;
+  padding: 3px 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: 'kern' off;
+  color: #FFFFFF;
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:first-child {
+  background: #E0B2DB;
+}
+@media (max-width: 480px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:first-child {
+    width: 30%;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:nth-child(2) {
+  background: #628CE6;
+}
+@media (max-width: 480px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:nth-child(2) {
+    width: 30%;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:nth-child(3) {
+  background: #2BA4EF;
+}
+@media (max-width: 480px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:nth-child(3) {
+    width: 30%;
+    margin-top: 10px;
+  }
+}
+.a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:last-child {
+  background: #323B94;
+}
+@media (max-width: 480px) {
+  .a_episodes .a_episodes__items .a_episodes__item .a_episodes__data .soc .btn__soc:last-child {
+    width: 30%;
+    margin-top: 10px;
+  }
+}
+.a_episodes__milena {
+  box-sizing: border-box;
+  padding: 60px;
+  left: -335px;
+  top: -60px;
+  width: 560px;
+  height: auto;
+  position: absolute;
+  background: #628CE6;
+  border-radius: 0px 60px 0px 60px;
+}
+@media (max-width: 991px) {
+  .a_episodes__milena {
+    width: auto;
+    height: auto;
+    left: auto;
+    position: relative;
+    padding: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .a_episodes__milena {
+    padding: 30px;
+  }
+}
+.a_episodes__milena > p {
+  width: 445px;
+  height: 196px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .a_episodes__milena > p {
+    width: 100%;
+    height: auto;
+  }
+}

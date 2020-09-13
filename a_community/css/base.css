@@ -1,0 +1,30 @@
+html {
+    -webkit-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a,
+h4,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+    margin: 0;
+}
