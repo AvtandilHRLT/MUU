@@ -146,7 +146,11 @@
 .a_soon__items .a_soon__item_right .subitem__data {
   margin-left: 0;
   margin-right: 5%;
-  padding-left: 20px;
+}
+@media (max-width: 767px) {
+  .a_soon__items .a_soon__item_right .subitem__data {
+    margin-right: 0;
+  }
 }
 .a_soon__items .a_soon__item_right .subitem__data::before {
   background: white;
@@ -162,5 +166,10 @@
 @media (max-width: 767px) {
   .a_soon__items .a_soon__item_right .subitem__data::before {
     right: 0;
+  }
+}
+@media (max-width: 480px) {
+  .a_soon__items .a_soon__item_right .subitem__data::before {
+    border-radius: 0px 30px;
   }
 }
