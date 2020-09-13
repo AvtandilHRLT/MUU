@@ -1,0 +1,31 @@
+html {
+    -webkit-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a,
+h2,
+h1,
+h4,
+h3,
+span,
+button,
+p {
+    font-family: 'Poppins', sans-serif;
+    font-feature-settings: 'kern' off;
+    text-decoration: none;
+    line-height: 140%;
+    margin: 0;
+    color: #303030;
+}
