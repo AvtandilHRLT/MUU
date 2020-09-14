@@ -51,7 +51,9 @@
 }
 @media (max-width: 480px) {
   .a_popup_team__item .sub_item__data_top {
-    padding-left: 45%;
+    padding-top: 70px;
+    align-items: center;
+    padding-left: 0;
     margin-bottom: 20px;
   }
 }
