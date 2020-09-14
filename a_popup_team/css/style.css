@@ -98,6 +98,11 @@
 .a_popup_team__item .sub_item__data_bottom .sub_data_bottom__left {
   flex: 0 0 48%;
 }
+@media (max-width: 480px) {
+  .a_popup_team__item .sub_item__data_bottom .sub_data_bottom__left {
+    margin-bottom: 10px;
+  }
+}
 .a_popup_team__item .sub_item__data_bottom .sub_data_bottom__left h4 {
   font-weight: bold;
   font-size: 14px;
