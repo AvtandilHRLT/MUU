@@ -86,7 +86,7 @@
   right: -104px;
   top: 174px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .a_popup_service .a_popup_service__data .sub_data__triangle {
     display: none;
   }
