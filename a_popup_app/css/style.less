@@ -43,53 +43,65 @@
             height: 100%;
             z-index: 3;
         }
-        .sub_item__drop{
+        .sub_data__drop{
             max-width: 103px;
             max-height: 103px;
             top: -50px;
             left: -50px;
+            @media (max-width: 991px) {
+                right: -40px;
+                bottom: -40px;
+            }
             @media(max-width: 767px){
                 max-width: 80px;
                 max-height: 80px;
                 width: 100%;
-                top: -40px;
-                left: -40px;
+                top: -20px;
+                left: -20px;
             }
             @media(max-width: 480px){
-                max-width: 60px;
-                max-height: 60px;
+                max-width: 50px;
+                max-height: 50px;
                 width: 100%;
-                top: -30px;
-                left: -30px;
+                top: -20px;
+                left: -20px;
             }
         }
-        .sub_item__triangle{
+        .sub_data__triangle{
             max-width: 84px;
             max-height: 84px;
-            right: -104px;
+            right: -84px;
             top: 174px;
-            @media(max-width: 767px){
+            @media(max-width: 991px){
                 display: none;
             }
         }
-        .sub_item__substract{
+        .sub_data__substract{
             max-width: 167px;
             max-height: 167px;
-            bottom: -41.3px;
+            bottom: -83.5px;
             right: -83.5px;
+            @media (max-width: 991px) {
+                max-width: 80px;
+                max-height: 80px;
+                right: -40px;
+                bottom: -40px;
+            }
             @media(max-width: 767px){
-                right: -50px;
-                bottom: -25px;
-                max-width: 100px;
-                max-height: 100px;
+                right: -20px;
+                bottom: -20px;
+                max-width: 60px;
+                max-height: 60px;
                 width: 100%;
+                transform: rotate(90deg);
             }
             @media(max-width: 480px){
                 max-width: 60px;
                 max-height: 60px;
                 width: 100%;
-                right: -30px;
-                bottom: -15px;
+                height: auto;
+                right: -20px;
+                bottom: -20px;
             }
         }
         .sub_data__close{
