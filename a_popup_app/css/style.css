@@ -42,12 +42,12 @@
 }
 @media (max-width: 767px) {
   .a_popup_app .a_popup_app__data {
-    padding: 40px 50px;
+    padding: 40px 40px;
   }
 }
 @media (max-width: 480px) {
   .a_popup_app .a_popup_app__data {
-    padding: 40px 30px;
+    padding: 40px 20px;
   }
 }
 .a_popup_app .a_popup_app__data > img {
@@ -64,14 +64,16 @@
 }
 @media (max-width: 991px) {
   .a_popup_app .a_popup_app__data .sub_data__drop {
-    right: -40px;
-    bottom: -40px;
+    max-width: 80px;
+    max-height: 80px;
+    left: -20px;
+    top: -20px;
   }
 }
 @media (max-width: 767px) {
   .a_popup_app .a_popup_app__data .sub_data__drop {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 60px;
+    max-height: 60px;
     width: 100%;
     top: -20px;
     left: -20px;
@@ -89,8 +91,14 @@
 .a_popup_app .a_popup_app__data .sub_data__triangle {
   max-width: 84px;
   max-height: 84px;
-  right: -84px;
+  right: -167px;
   top: 174px;
+}
+@media (max-width: 1190px) {
+  .a_popup_app .a_popup_app__data .sub_data__triangle {
+    right: -50px;
+    top: -50px;
+  }
 }
 @media (max-width: 991px) {
   .a_popup_app .a_popup_app__data .sub_data__triangle {

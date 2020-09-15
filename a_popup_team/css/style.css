@@ -41,7 +41,7 @@
 }
 @media (max-width: 767px) {
   .a_popup_team .a_popup_team__item {
-    padding: 35px;
+    padding: 35px 30px;
     border-radius: 0px 40px;
   }
 }
