@@ -34,7 +34,11 @@
   box-sizing: border-box;
   max-width: 586px;
   margin: 0 auto;
-  margin-top: 5%;
+}
+@media (max-height: 600px) {
+  .a_popup_app .sub_item__data {
+    margin-top: 10%;
+  }
 }
 @media (max-width: 767px) {
   .a_popup_app .sub_item__data {

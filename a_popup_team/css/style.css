@@ -1,6 +1,8 @@
 .a_popup_team {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
   position: fixed;
   left: 0;
   top: 0;
@@ -9,6 +11,21 @@
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
 }
+@media (max-width: 991px) {
+  .a_popup_team {
+    padding: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .a_popup_team {
+    padding: 20px;
+  }
+}
+@media (max-height: 600px) {
+  .a_popup_team {
+    align-items: flex-start;
+  }
+}
 .a_popup_team .a_popup_team__item {
   max-width: 842px;
   margin: 0 auto;
@@ -16,6 +33,11 @@
   background: white;
   position: relative;
   border-radius: 0px 60px;
+}
+@media (max-height: 600px) {
+  .a_popup_team .a_popup_team__item {
+    margin-top: 10%;
+  }
 }
 @media (max-width: 767px) {
   .a_popup_team .a_popup_team__item {
