@@ -36,7 +36,7 @@
 }
 @media (max-height: 600px) {
   .a_popup_team .a_popup_team__item {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 }
 @media (max-width: 767px) {

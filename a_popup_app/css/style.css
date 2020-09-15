@@ -37,7 +37,7 @@
 }
 @media (max-height: 600px) {
   .a_popup_app .sub_item__data {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 }
 @media (max-width: 767px) {
