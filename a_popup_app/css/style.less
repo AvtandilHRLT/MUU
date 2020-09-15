@@ -1,20 +1,17 @@
 
 .a_popup_app{
-    margin-top: 100px;
-}
-.a_popup_app__item{
-    max-width: 837px;
-    margin: 0 auto;
-    position: relative;
-    box-sizing: border-box;
-    @media(max-width: 767px){
-        padding: 50px;
-    }
-    @media(max-width: 480px){
-        padding: 30px;
-    }
-    
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:  100px;
     .sub_item__data{
         position: relative;
         padding: 60px 70px;
