@@ -243,6 +243,7 @@
   color: #939393;
   font-weight: normal;
   font-size: 14px;
+  padding: 5px 16px;
 }
 .a_popup_app__item .sub_item__data .sub_data__form .sub_data__btn_mail {
   align-items: center;
