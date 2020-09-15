@@ -6,6 +6,14 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-height: 600px) {
+  .a_popup_app {
+    align-items: flex-start;
+  }
 }
 .a_popup_app .sub_item__data {
   position: relative;

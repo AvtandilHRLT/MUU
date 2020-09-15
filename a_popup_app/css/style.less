@@ -7,6 +7,12 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
     overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media(max-height: 600px){
+        align-items: flex-start;
+    }
     .sub_item__data{
         position: relative;
         padding: 60px 70px;
