@@ -6,12 +6,6 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: -100px;
-  padding-top: -100px;
 }
 .a_popup_app .sub_item__data {
   position: relative;
