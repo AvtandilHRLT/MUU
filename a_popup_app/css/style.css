@@ -23,7 +23,7 @@
   box-sizing: border-box;
   max-width: 586px;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 5%;
 }
 @media (max-width: 767px) {
   .a_popup_app .sub_item__data {
