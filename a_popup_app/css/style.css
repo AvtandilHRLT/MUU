@@ -9,6 +9,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px;
+}
+@media (max-width: 991px) {
+  .a_popup_app {
+    padding: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .a_popup_app {
+    padding: 20px;
+  }
 }
 @media (max-height: 600px) {
   .a_popup_app {
