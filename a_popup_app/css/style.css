@@ -211,6 +211,11 @@
 }
 @media (max-width: 480px) {
   .a_popup_app .sub_item__data .sub_data__form > label input {
+    padding: 10px 16px;
+  }
+}
+@media (max-width: 480px) {
+  .a_popup_app .sub_item__data .sub_data__form > label input {
     width: 100%;
     padding: 10px 16px;
   }
