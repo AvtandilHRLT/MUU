@@ -34,23 +34,82 @@ body{
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
+            
             .sub_data__link{
+                box-sizing: border-box;
                 flex: 0 0 33.333%;
                 display: flex;
                 align-items: center;
                 margin-bottom: 30px; 
                 @media(max-width:420px){
                     flex: 0 0 48%;
-                    justify-content: center;
                 }   
-                &:nth-child(2) , &:nth-child(5){
-                    justify-content: center;
-                }
-                &:nth-child(3) , &:last-child{
-                    justify-content: flex-end;
-                    @media(max-width:420px){
+                img{
+                    display: block;
+                } 
+                &:first-child{
+                    @media(max-width:767px){
                         justify-content: center;
                     }
+                    @media(max-width:480px){
+                        justify-content: flex-start;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
+                }
+                &:nth-child(2){
+                    justify-content: center;
+                    @media(max-width:767px){
+                        justify-content: center;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
+                }
+                &:nth-child(3){
+                    justify-content: flex-end;
+                    @media(max-width:767px){
+                        justify-content: center;
+                    }
+                    @media(max-width:480px){
+                        justify-content: flex-end;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
+                }
+                &:nth-child(4){
+                    @media(max-width:767px){
+                        justify-content: center;
+                    }
+                    @media(max-width:480px){
+                        justify-content: flex-start;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
+                }
+                &:nth-child(5){
+                    justify-content: center;
+                    @media(max-width:767px){
+                        justify-content: center;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
+                }
+                &:last-child{
+                    justify-content: flex-end;
+                    @media(max-width:767px){
+                        justify-content: center;
+                    }
+                    @media(max-width:480px){
+                        justify-content: flex-end;
+                    }
+                    @media(max-width:420px){
+                        justify-content: center;
+                    } 
                 }
             }
         }
