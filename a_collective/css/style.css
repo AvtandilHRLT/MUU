@@ -11,10 +11,13 @@ body {
   box-sizing: border-box;
   position: relative;
   margin-top: 100px;
+  border: 1px solid #000;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .a_collective {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
   }
 }
@@ -43,6 +46,7 @@ body {
   flex: 0 0 33.333%;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 @media (max-width: 420px) {
@@ -67,19 +71,17 @@ body {
 }
 .a_collective .a_collective__img {
   max-width: 566px;
-  position: absolute;
-  top: -84px;
-  right: 0;
+  position: relative;
+  height: 100%;
 }
-@media (max-width: 1066px) {
+@media (max-width: 767px) {
   .a_collective .a_collective__img {
-    max-width: 480px;
+    margin-bottom: 30px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 480px) {
   .a_collective .a_collective__img {
-    position: static;
-    max-width: 100%;
+    margin-bottom: 20px;
   }
 }
 .a_collective .a_collective__img img {

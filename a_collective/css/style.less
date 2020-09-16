@@ -11,8 +11,11 @@ body{
     box-sizing: border-box;
     position: relative;
     margin-top: 100px;
-    @media(max-width:991px){
-        flex-direction: column;
+    border: 1px solid #000;
+    @media(max-width:767px){
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
         padding: 20px;
     }
     .a_collective__data{
@@ -36,6 +39,7 @@ body{
                 flex: 0 0 33.333%;
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 margin-bottom: 20px; 
                 @media(max-width:420px){
                     flex: 0 0 48%;
@@ -55,20 +59,17 @@ body{
     }
     .a_collective__img{
         max-width: 566px;
-        position: absolute;
-        top: -84px;
-        right: 0;
-        @media(max-width: 1066px){
-            max-width: 480px;
+        position: relative;
+        height: 100%;
+        @media(max-width:767px){
+            margin-bottom: 30px;
         }
-        @media(max-width:991px){
-            position: static;
-            max-width: 100%;
+        @media(max-width:480px){
+            margin-bottom: 20px;
         }
         img{
             width: 100%;
-            height: auto;
-            
+            height: auto;           
         }
     }
 }
